@@ -13,7 +13,7 @@ typedef struct IP{
     unsigned char identification[2];
     unsigned char fragment_offset[2];
     unsigned char ttl[2];
-    unsigned char protocol;
+    unsigned char protocol[2];
     //unsigned char header_checksum;
     unsigned char src_add[4];
     unsigned char des_add[4];

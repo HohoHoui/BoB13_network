@@ -78,7 +78,7 @@ int main(int argc, char* argv[]) {
 		printf("\nIP des address : ");
 		for(int i = 0 ; i < 4 ; i++){
 			printf("%02x", Ip -> des_add[i]);
-			if(i < 2){
+			if(i < 3){
 				printf(":");
 			}
 		}
